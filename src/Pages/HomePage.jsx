@@ -1,7 +1,7 @@
 import React from 'react'
 import HeroBg from '../assets/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash (1).png'
 import Navbar from '../components/Navbar'
-import { FaSearch }from 'react-icons/fa'
+import HeroForm from '../components/HeroForm'
 
 const HomePage = () => {
   return (
@@ -18,27 +18,7 @@ const HomePage = () => {
               <div className='w-[408px] h-[449px] rounded-lg bg-slate-600 mb-4'>
 
               </div>
-              <form className='px-6 py-4 bg-white w-fit rounded-lg'>
-                <div className="form_cont flex">
-                  <select className='border-[2px] p-2 rounded-l-lg border-gray-300 font-semibold'>
-                    <option value="All Type">All Type</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                  </select>
-                  <select className='border-[2px] p-2 border-gray-300 font-semibold'>
-                    <option value="Neighborhood">Neighborhood</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                  </select>
-                  <a className='bg-black px-3 flex items-center rounded-r-lg'>
-                    <FaSearch className='text-white'/>
-                  </a>
-                </div>
-              </form>
+              <HeroForm />
             </div>
           </div>
         </div>
