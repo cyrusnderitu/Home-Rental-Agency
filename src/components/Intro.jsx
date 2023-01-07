@@ -2,8 +2,8 @@ import React from 'react'
 
 const Intro = () => {
   return (
-    <div>
-      <h1 className='text-3xl font-extrabold'>Minimmum Living Cost Tkes Care pf Everything</h1>
+    <div className='mt-10'>
+      <h1 className=' intro_text relative text-3xl font-extrabold'>Minimum Living Cost Takes Care of Everything</h1>
     </div>
   )
 }
