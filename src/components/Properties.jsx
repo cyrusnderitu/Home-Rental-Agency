@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import PropCard from './PropCard';
+import PropCard from './Card/PropCard';
 
 const Properties = () => {
 
@@ -15,7 +15,7 @@ const Properties = () => {
     },[])
 
   return (
-    <div className='grid grid-cols-3'>
+    <div className='blog-container'>
       {data ? (data.map((dt)=>{return <PropCard key={dt.id} data={dt} />})) : "No properties to show"}
     </div>
   )
