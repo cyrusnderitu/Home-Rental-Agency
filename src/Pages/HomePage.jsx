@@ -7,6 +7,9 @@ import Intro from "../components/Intro";
 import Properties from "../components/Properties";
 import ReactPaginate from "react-paginate";
 import {AiOutlineArrowLeft, AiOutlineArrowRight} from 'react-icons/ai'
+import Options from "../components/Options";
+import Form from "../components/Form/Form";
+import Testimonials from "../components/Testimonials/Testimonials";
 
 const HomePage = () => {
   const [data, setData] = useState();
@@ -27,7 +30,7 @@ const HomePage = () => {
       setPageCount(Math.ceil(data.length / postsPerPage));
     }
     fetchData();
-  }, [currentPosts]);
+  }, []);
 
   const handlePageClick = (event) => {
     const newOffset = (event.selected * postsPerPage) % data.length;
@@ -59,7 +62,7 @@ const HomePage = () => {
       </div>
       <main className="">
         <Intro />
-        <div className="bg-gray-100 py-20">
+        <div className="bg-gray-100 py-20 mb-18">
           <Properties data={currentPosts} />
           <ReactPaginate
             activeClassName={"bg-orange-400 text-gray-100"}
@@ -78,6 +81,11 @@ const HomePage = () => {
             previousClassName={"px-4 border-r-1 border-gray-400  h-full flex items-center text-orange-400"}
           />
         </div>
+        <Options />
+
+        <h4 className="capitalise font-bold text-xl my-10 px-24 text-center">Your property with us and be confident that your room will be filled out!</h4>
+        <Form />
+        <Testimonials />
       </main>
     </div>
   );

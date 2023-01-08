@@ -21,10 +21,12 @@ body{
   color: #2c3e50;
   background-color: #fff;
 }
+input, select{
+  outline: none;
+}
 .hero{
   background-image: url('../src/assets/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash\ \(1\).png');
 }
-
 .intro_text::after{
   content: " ";
   width: 35%;
