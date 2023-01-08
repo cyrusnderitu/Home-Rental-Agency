@@ -57,29 +57,27 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-      <main className="px-24">
+      <main className="">
         <Intro />
-        <Properties data={currentPosts} />
-        <ReactPaginate
-          activeClassName={"item active "}
-          breakClassName={"item break-me "}
-          breakLabel={"..."}
-          containerClassName={"pagination"}
-          disabledClassName={"disabled-page"}
-          marginPagesDisplayed={2}
-          nextClassName={"item next "}
-          nextLabel={
-            <AiOutlineArrowRight className="text-[16px], w-[150]" />
-          }
-          onPageChange={handlePageClick}
-          pageCount={pageCount}
-          pageClassName={"item pagination-page "}
-          pageRangeDisplayed={2}
-          previousClassName={"item previous"}
-          previousLabel={
-            <AiOutlineArrowLeft className="text-[16px], w-[150]" />
-          }
-        />
+        <div className="bg-gray-100 py-20">
+          <Properties data={currentPosts} />
+          <ReactPaginate
+            activeClassName={"bg-orange-400 text-gray-100"}
+            breakClassName={""}
+            breakLabel={"..."}
+            containerClassName={`pagination mx-auto border-2 border-gray-300 rounded-lg`}
+            disabledClassName={"bg-gray-300 text-gray-400"}
+            // marginPagesDisplayed={1}
+            nextLabel="Next"
+            nextClassName={"px-4 border-l-1 border-gray-300 h-full flex items-center text-orange-400"}
+            onPageChange={handlePageClick}
+            pageCount={pageCount}
+            pageClassName={"px-4 h-full flex items-center text-orange-400 "}
+            pageRangeDisplayed={3}
+            previousLabel="First"
+            previousClassName={"px-4 border-r-1 border-gray-400  h-full flex items-center text-orange-400"}
+          />
+        </div>
       </main>
     </div>
   );

@@ -5,10 +5,10 @@ const Navbar = () => {
   return (
     <div className='h-[80px] flex'>
         <nav className='flex items-center'>
-            <div className="logo mr-56">
+            <div className="logo mr-64">
                 <img src={Logo} alt="Logo" className='h-[40px]'/>
             </div>
-            <div className="nav_list flex gap-x-8">
+            <div className="nav_list flex gap-x-8 text-white">
                 <NavLink to={'/'}>
                     <a className='decoration-none'>Home</a> 
                 </NavLink>
@@ -23,7 +23,7 @@ const Navbar = () => {
                 </NavLink>
             </div>
         </nav>
-        <hr  className='text-white'/>
+        
     </div>
   )
 }

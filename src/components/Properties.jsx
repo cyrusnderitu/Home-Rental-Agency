@@ -5,9 +5,9 @@ import ReactPaginate from 'react-paginate';
 const Properties = ({data}) => {
 
   return (
-    <div className='mb-4'>
+    <div className='mb-6 px-24'>
         <div className='flex justify-between items-center'>
-            <h1 className='prop_title relative font-bold text-[36px]'>List Of Properties</h1>
+            <h1 className='prop_title relative font-bold text-[36px] mb-10'>List Of Properties</h1>
             <button className='border-none bg-[#F4511E] text-white p-4'>View All Property</button>
         </div>
         <div className='blog-container'>

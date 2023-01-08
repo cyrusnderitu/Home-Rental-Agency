@@ -29,9 +29,8 @@ body{
   content: " ";
   width: 35%;
   background: #F4511E;
-  height: 2px;
+  height: 3px;
   position:absolute;
-  margin-top: 2rem;
   left: 0;
   bottom: -.75rem;
 }
@@ -39,7 +38,7 @@ body{
   content: " ";
   width: 35%;
   background: #F4511E;
-  height: 2px;
+  height: 3px;
   position:absolute;
   left: 0;
   bottom: -.25rem;
@@ -64,51 +63,15 @@ body{
   justify-content: center;
   width: 40px;
 }
-
-.disabled-page {
-  color: #808e9b;
-}
-
-.active {
-  border: solid 1px #808e9b;
-  border-radius: 40px;
-  color: #808e9b;
-}
-
-.break-me {
-}
-
-.next {
-  border-left: solid 1px #808e9b;
-  font-size: 4px;
-  height: 60px;
-  position: absolute;
-  right: 0;
-  width: 150px;
-}
-
 .pagination {
   align-items: center;
-  background-color: #0fbcf9;
+  background-color: transparent;
   display: flex;
   flex-direction: row;
   height: 40px;
   justify-content: center;
   list-style-type: none;
   position: relative;
-  width: 1000px;
+  width: fit-content;
   margin-bottom: 3rem;
-}
-
-.pagination-page {
-  font-weight: 700;
-}
-
-.previous {
-  border-right: solid 1px #808e9b;
-  font-size: 4px;
-  height: 60px;
-  left: 0;
-  position: absolute;
-  width: 150px;
 }
