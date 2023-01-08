@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import HeroBg from '../assets/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash (1).png'
 import Navbar from '../components/Navbar'
 import HeroForm from '../components/HeroForm'
@@ -18,7 +18,7 @@ const HomePage = () => {
                 <h1 className='text-[52px] leading-[70px] font-bold text-white w-[584px]'>The Most Affordable Place To Stay In The San Franciso Bay Area</h1>
               </div>
               <div className="hero_map">
-                <img src={Map} alt="Map" className='w-[408px] h-[449px] rounded-lg mb-2'/>
+                <img src={Map} alt="Map" className='w-[400px] h-[400px] rounded-lg mb-2'/>
                 <HeroForm />
               </div>
             </div>

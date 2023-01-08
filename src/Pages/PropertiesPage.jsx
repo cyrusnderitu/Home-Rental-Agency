@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProertiesPage = () => {
+const PropertiesPage = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const ProertiesPage = () => {
   )
 }
 
-export default ProertiesPage
+export default PropertiesPage
