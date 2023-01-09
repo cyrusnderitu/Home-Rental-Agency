@@ -1,9 +1,11 @@
+import Drop from 'mysql-database/structures/methods/drop'
 import React from 'react'
+import DropFile from '../Uploads/DropFile'
 
 const Form = () => {
   return (
     <div className='px-24'>
-        <div className="form_cont w-full shadow-slate-200 shadow-2xl py-4 px-10 h-[600px]">
+        <div className="form_cont w-full shadow-slate-200 shadow-2xl py-4 px-10">
           <h2 className="font-extrabold capitalize text-[#F4551E] w-full text-center text-xl">Add a new property</h2>
           <form className='grid grid-cols-3 gap-10 mt-16'>
             <div className="font-inter">
@@ -45,6 +47,14 @@ const Form = () => {
               </select>
             </div>  
           </form>
+          <div className='my-10'>
+            <label htmlFor="txt" className='font-bold'>Description <span className='text-[#F4551E]'>*</span></label> <br />
+            <textarea id="txt" cols="30" rows="10" className='bg-gray-100 rounded-lg w-full indent-4 outline-none py-4' placeholder='Enter Description'></textarea>
+          </div>
+          <DropFile />
+          <div className='flex justify-center'>
+            <button className='w-fit py-4 px-8 border-none bg-[#F4551E] text-white font-semibold my-10 rounded-lg'>Add Property</button>
+          </div>
         </div>
     </div>
   )

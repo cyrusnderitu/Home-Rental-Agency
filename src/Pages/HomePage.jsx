@@ -21,16 +21,18 @@ const HomePage = () => {
   const indexOfLastPost = indexOfFirstPost + postsPerPage;
   const [currentPosts, setCurrentPost] = useState(null);
 
-  useEffect(() => {
-    async function fetchData() {
-      const response = await fetch("http://localhost:8000/data");
-      const data = await response.json();
-      setData(data);
+  async function fetchData() {
+    const response = await fetch("http://localhost:8000/data");
+    const data = await response.json();
+    setData(data);
       setCurrentPost(data.slice(indexOfFirstPost, indexOfLastPost));
       setPageCount(Math.ceil(data.length / postsPerPage));
     }
-    fetchData();
+    
+useEffect(() => {
+    fetchData()
   }, []);
+
 
   const handlePageClick = (event) => {
     const newOffset = (event.selected * postsPerPage) % data.length;
