@@ -17,5 +17,4 @@ const DropFile = () => {
     </div>
   )
 }
-
 export default DropFile
