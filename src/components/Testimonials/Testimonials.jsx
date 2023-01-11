@@ -6,10 +6,10 @@ import "swiper/css/pagination";
 
 const Testimonials = () => {
   return (
-    <div className="my-20 bg-orange-100 h-[300px]">
-      <div className="px-24 grid text-white grid-cols-2 h-full">
-        <div className="left text-black">
-          <Swiper pagination={{ dynamicBullets: true }} modules={[Pagination]}>
+    <div className="my-20 bg-orange-100 h-[400px]">
+      <div className="grid text-white grid-cols-2 h-full">
+        <div className="left ml-24 text-black">
+          <Swiper pagination={{ dynamicBullets: true, bulletClass: `swiper-pagination-bullet` }} modules={[Pagination]}>
             <SwiperSlide>
               <div className="cont text-left">
                 <div>
@@ -24,7 +24,7 @@ const Testimonials = () => {
                 </div>
                 <div className="user flex items-center gap-x-4">
                   <img
-                    src=""
+                    src="https://www.safaricom.co.ke/sustainabilityreport_2019/wp-content/uploads/2019/09/2019-Safaricom-SBR-36@2x.png"
                     alt=""
                     className="w-[40px] h-[40px] rounded-[50%] bg-white"
                   />
@@ -49,7 +49,7 @@ const Testimonials = () => {
                 </div>
                 <div className="user flex items-center gap-x-4">
                   <img
-                    src=""
+                    src="https://www.safaricom.co.ke/sustainabilityreport_2019/wp-content/uploads/2019/09/2019-Safaricom-SBR-36@2x.png"
                     alt=""
                     className="w-[40px] h-[40px] rounded-[50%] bg-white"
                   />
