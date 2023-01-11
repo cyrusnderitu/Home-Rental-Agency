@@ -9,7 +9,13 @@ const Testimonials = () => {
     <div className="my-20 bg-orange-100 h-[400px]">
       <div className="grid text-white grid-cols-2 h-full">
         <div className="left ml-24 text-black">
-          <Swiper pagination={{ dynamicBullets: true, bulletClass: `swiper-pagination-bullet` }} modules={[Pagination]}>
+          <Swiper
+            pagination={{
+              dynamicBullets: true,
+              bulletClass: `swiper-pagination-bullet`,
+            }}
+            modules={[Pagination]}
+          >
             <SwiperSlide>
               <div className="cont text-left">
                 <div>
@@ -63,9 +69,15 @@ const Testimonials = () => {
           </Swiper>
         </div>
         <div className="right bg-slate-400">
-          <div className="right_c w-full h-full">
-            <h1>This the right side of the Testimonials section</h1>
-          </div>
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/qZxM7TkdNUA"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
         </div>
       </div>
     </div>
