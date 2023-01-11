@@ -43,16 +43,17 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="border-t-2 border-gray-100 flex justify-between items-center mx-8">
-        <ul className="flex gap-x-8 text-[12px] font-semibold">
-          <li className="uppercase list-none">About us</li>
-          <li className="uppercase list-none">Contact us</li>
-          <li className="uppercase list-none">Help</li>
-          <li className="uppercase list-none">Privacy policy</li>
-          <li className="uppercase list-none">Disclaimer</li>
-        </ul>
-
-        <span className="text-center">&copy; Copyright 2023 Cyrus Nderitu</span>
+      <div className="border-t-2 mx-8">
+        <div className="border-gray-100 flex justify-between items-center mt-8">
+          <ul className="flex gap-x-8 text-[12px] font-semibold">
+            <li className="uppercase list-none">About us</li>
+            <li className="uppercase list-none">Contact us</li>
+            <li className="uppercase list-none">Help</li>
+            <li className="uppercase list-none">Privacy policy</li>
+            <li className="uppercase list-none">Disclaimer</li>
+          </ul>
+          <span className="text-center">Copyright &copy; 2020 Minimumlivingcost. All rights reserved</span>
+        </div>
       </div>
     </div>
   );

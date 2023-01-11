@@ -28,15 +28,15 @@ const Testimonials = () => {
                     error rerum iusto dolore!
                   </p>
                 </div>
-                <div className="user flex items-center gap-x-4">
+                <div className="user flex items-center gap-x-2 mt-4">
                   <img
                     src="https://www.safaricom.co.ke/sustainabilityreport_2019/wp-content/uploads/2019/09/2019-Safaricom-SBR-36@2x.png"
                     alt=""
                     className="w-[40px] h-[40px] rounded-[50%] bg-white"
                   />
                   <div className="">
-                    <p className="name">Joe Doe</p>
-                    <span>Chief Finance Officer</span>
+                    <p className="name text-[#F4551E] text-md font-semibold">Harry Wilson</p>
+                    <span className="text-sm">Property Owner</span>
                   </div>
                 </div>
               </div>
@@ -53,15 +53,40 @@ const Testimonials = () => {
                     Cupiditate esse harum recusandae omnis.
                   </p>
                 </div>
-                <div className="user flex items-center gap-x-4">
+                <div className="user flex items-center gap-x-2 mt-4">
                   <img
                     src="https://www.safaricom.co.ke/sustainabilityreport_2019/wp-content/uploads/2019/09/2019-Safaricom-SBR-36@2x.png"
                     alt=""
                     className="w-[40px] h-[40px] rounded-[50%] bg-white"
                   />
                   <div>
-                    <p className="name">Joe Doe</p>
-                    <span>Chief Finance Officer</span>
+                    <p className="name text-[#F4551E] text-md font-semibold">Harry Wilson</p>
+                    <span className="text-sm">Property Owner</span>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="cont text-left">
+                <div>
+                  <p className="mb-2">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Temporibus deserunt modi vero consequuntur dolorem quis
+                    quasi repudiandae, excepturi suscipit similique, voluptates
+                    earum veniam. Officiis blanditiis odio maxime voluptatem
+                    quisquam ipsum nulla, labore vitae tempore accusantium.
+                    Cupiditate esse harum recusandae omnis.
+                  </p>
+                </div>
+                <div className="user flex items-center gap-x-2 mt-4">
+                  <img
+                    src="https://www.safaricom.co.ke/sustainabilityreport_2019/wp-content/uploads/2019/09/2019-Safaricom-SBR-36@2x.png"
+                    alt=""
+                    className="w-[40px] h-[40px] rounded-[50%] bg-white"
+                  />
+                  <div>
+                    <p className="name text-[#F4551E] text-md font-semibold">Harry Wilson</p>
+                    <span className="text-sm">Property Owner</span>
                   </div>
                 </div>
               </div>

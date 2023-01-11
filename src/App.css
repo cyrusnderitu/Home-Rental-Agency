@@ -65,6 +65,18 @@ input, select{
   justify-content: center;
   width: 40px;
 }
+.pagination {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  justify-content: center;
+  list-style-type: none;
+  position: relative;
+  width: fit-content;
+  margin-bottom: 3rem;
+}
 
 #form-file-upload {
   height: 16rem;

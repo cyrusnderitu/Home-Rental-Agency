@@ -27,3 +27,6 @@
   object-fit: cover;
   border: 2px solid #F4551E;
 }
+.swiper-pagination-bullet-active {
+  background-color: #F4551E !important;
+}

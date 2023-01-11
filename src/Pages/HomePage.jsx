@@ -67,11 +67,11 @@ useEffect(() => {
         <div className="bg-gray-100 py-20 mb-18">
           <Properties data={currentPosts} />
           <ReactPaginate
-            activeClassName={"bg-orange-400 text-gray-100"}
+            activeClassName={"bg-orange-400 text-gray-200"}
             breakClassName={""}
             breakLabel={"..."}
             containerClassName={`pagination mx-auto border-2 border-gray-300 rounded-lg`}
-            disabledClassName={"bg-gray-300 text-gray-400"}
+            disabledClassName={"bg-gray-300 text-gray-500"}
             // marginPagesDisplayed={1}
             nextLabel="Next"
             nextClassName={"px-4 border-l-1 border-gray-300 h-full flex items-center text-orange-400"}
