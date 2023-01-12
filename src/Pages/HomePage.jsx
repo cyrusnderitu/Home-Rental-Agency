@@ -13,8 +13,9 @@ import Testimonials from "../components/Testimonials/Testimonials";
 
 const HomePage = () => {
   const [data, setData] = useState();
+  const [hasFetched, setHasFetched] = useState(false);
 
-  const postsPerPage = 3;
+  const postsPerPage = 6;
   const [pageCount, setPageCount] = useState(0);
   const [indexOfFirstPost, setIndexOfFirstPost] = useState(0);
 
@@ -25,17 +26,23 @@ const HomePage = () => {
     const response = await fetch("http://localhost:8000/data");
     const data = await response.json();
     setData(data);
-      setCurrentPost(data.slice(indexOfFirstPost, indexOfLastPost));
-      setPageCount(Math.ceil(data.length / postsPerPage));
-    }
-    
-useEffect(() => {
-    fetchData()
-  }, []);
+    setHasFetched(true);
+    localStorage.setItem('hotels', JSON.stringify(data));
+    setCurrentPost(data?.slice(indexOfFirstPost, indexOfLastPost));
+    console.log({currentPosts})
+    setPageCount(Math.ceil(data.length / postsPerPage));
+  }
 
+  if (!hasFetched){
+    fetchData();
+  }
+  useEffect(()=>{
+    setCurrentPost(data?.slice(indexOfFirstPost, indexOfLastPost));
+  }, [indexOfFirstPost])
 
+  
   const handlePageClick = (event) => {
-    const newOffset = (event.selected * postsPerPage) % data.length;
+    const newOffset = (event.selected * 1) * postsPerPage;
     setIndexOfFirstPost(newOffset);
   };
   return (

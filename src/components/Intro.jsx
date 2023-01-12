@@ -8,7 +8,7 @@ import {RiShieldStarFill, RiEye2Line} from 'react-icons/ri'
 const Intro = () => {
   return (
     <div className='mt-20 px-20'>
-      <h1 className=' intro_text relative text-3xl font-extrabold mb-8'>Minimum Living Cost Takes Care of Everything</h1>
+      <h1 className=' intro_text relative text-[26px] font-extrabold mb-8'>Minimum Living Cost Takes Care of Everything</h1>
       <div className="intro_cont flex mb-10">
         <div className="left flex-1">
           <img src={IntroImg} alt="introImage" className='w-[450px]'/>
