@@ -29,7 +29,6 @@ const HomePage = () => {
     setHasFetched(true);
     localStorage.setItem('hotels', JSON.stringify(data));
     setCurrentPost(data?.slice(indexOfFirstPost, indexOfLastPost));
-    console.log({currentPosts})
     setPageCount(Math.ceil(data.length / postsPerPage));
   }
 
