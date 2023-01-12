@@ -6,7 +6,7 @@ import {MdOutlineBathtub, MdGrid3X3  } from 'react-icons/md'
 const PropCard = ({ data }) => {
   return (
     <div className="blog-post shadow-lg rounded-lg" key={data.id}>
-      <img className="cover-img skeleton skeleton_img rounded-t-lg" src={`${data.homeImage} ? ${data.homeImage}: "https://www.mydomaine.com/thmb/dke2LC6lH21Pvqwd2lI6AIutnDY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SuCasaDesign-Modern-9335be77ca0446c7883c5cf8d974e47c.jpg"`} alt="cover-image" />
+      <img className="cover-img skeleton skeleton_img rounded-t-lg" src={`${data.homeImage} ? ${data.homeImage}: https://st.hzcdn.com/simgs/37e1bd44006702f8_14-5316/home-design.jpg`} alt="cover-image" />
       <div className="post_content px-8 font-dms">
         <h2 className="title skeleton_text text-black font-bold text-xl mt-2 mb-4">{data.title}</h2>
         <p className="description skeleton_text skeleton_text_body text-gray-400">{data.roomType}</p>

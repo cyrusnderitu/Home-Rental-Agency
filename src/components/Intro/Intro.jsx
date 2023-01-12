@@ -1,5 +1,5 @@
 import React from 'react'
-import IntroImg from '../assets/unsplash_oGmf8o53LeE (1).png'
+import IntroImg from '../../assets/unsplash_oGmf8o53LeE (1).png'
 import {BiDollarCircle, BiBuildingHouse} from 'react-icons/bi'
 import {BsStack} from 'react-icons/bs'
 import {TbPlant} from 'react-icons/tb'

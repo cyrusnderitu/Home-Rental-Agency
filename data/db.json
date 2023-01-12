@@ -2,7 +2,7 @@
   "data": [
     {
       "id": 1,
-      "homeImage": "https://assets.architecturaldigest.in/photos/62e79a3e7ca67452e79ac7cc/master/w_1600%2Cc_limit/6.jpg",
+      "homeImage": "https://assets.architecturaldigest.in/photos/600841a03a9d9570bc8421e6/master/w_2500,h_1667,c_limit/vadodara-homes-interior-design-home-decor-gujarat-photos-5.jpg",
       "title": "2578 Flosom Street, San Francisco, CA, 94110",
       "description": "Mar 12, 2022 · 4m read time",
       "roomType": "private room",
@@ -11,7 +11,7 @@
     },
     {
       "id": 2,
-      "homeImage": "https://www.mydomaine.com/thmb/dke2LC6lH21Pvqwd2lI6AIutnDY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SuCasaDesign-Modern-9335be77ca0446c7883c5cf8d974e47c.jpg",
+      "homeImage": "https://st.hzcdn.com/simgs/37e1bd44006702f8_14-5316/home-design.jpg",
       "title": "2578 Flosom Street, San Francisco, CA, 94110",
       "description": "Mar 12, 2022 · 4m read time",
       "roomType": "private room",
@@ -20,7 +20,7 @@
     },
     {
       "id": 3,
-      "homeImage": "https://images.familyhomeplans.com/cdn-cgi/image/fit=scale-down,quality=85/plans/51981/51981-b580.jpg",
+      "homeImage": "https://st.hzcdn.com/simgs/pictures/entryways/exterior-view-ace-associates-img~24810b260a9e7776_4-4847-1-0be2fc5.jpg",
       "title": "2578 Flosom Street, San Francisco, CA, 94110",
       "description": "Mar 12, 2022 · 4m read time",
       "roomType": "private room",
@@ -47,7 +47,7 @@
     },
     {
       "id": 6,
-      "homeImage": "https://assets.architecturaldigest.in/photos/60083d8b1dd783c692024804/master/w_3000,h_2070,c_limit/Bangalore-rustic-home-interiors-architecture-22.jpg",
+      "homeImage": "https://assets.architecturaldigest.in/photos/60191411cfcc0bef0ba44b34/master/w_1600%2Cc_limit/Kochi-apartment-1LeapingFrog-Studio1-1366x768.jpg",
       "title": "2578 Flosom Street, San Francisco, CA, 94110",
       "description": "Mar 12, 2022 · 4m read time",
       "roomType": "private room",
@@ -56,7 +56,7 @@
     },
     {
       "id": 7,
-      "homeImage": "https://israelmitolu.hashnode.dev/writing-cleaner-css-using-bem-methodology",
+      "homeImage": "https://assets.architecturaldigest.in/photos/6008402be6e1f6474018936a/master/w_1600%2Cc_limit/kochi-home-interior-design-brick-photos-2-1.jpg",
       "title": "2578 Flosom Street, San Francisco, CA, 94110",
       "description": "Mar 12, 2022 · 4m read time",
       "roomType": "private room",
@@ -65,43 +65,43 @@
     },
     {
       "id": 8,
-      "homeImage": "https://israelmitolu.hashnode.dev/writing-cleaner-css-using-bem-methodology",
+      "homeImage": "https://assets.architecturaldigest.in/photos/6008402c669ad19b3b104a53/master/w_2500,h_1667,c_limit/kochi-home-interior-design-brick-photos-3.jpg",
       "title": "2578 Flosom Street, San Francisco, CA, 94110",
       "description": "Mar 12, 2022 · 4m read time",
       "roomType": "private room",
-      "price": "1200",
+      "price": "1000",
       "size": [3, 2, 4]
     },
     {
       "id": 9,
-      "homeImage": "https://israelmitolu.hashnode.dev/writing-cleaner-css-using-bem-methodology",
+      "homeImage": "https://assets.architecturaldigest.in/photos/60084ed51b516d492c3ab3ab/master/w_2500,h_1667,c_limit/kerala-homes-interior-design-images-4.jpg",
       "title": "2578 Flosom Street, San Francisco, CA, 94110",
       "description": "Mar 12, 2022 · 4m read time",
       "roomType": "private room",
-      "price": "1200",
-      "size": [3, 2, 4]
+      "price": "1700",
+      "size": [4, 2, 4]
     },
     {
       "id": 10,
-      "homeImage": "https://israelmitolu.hashnode.dev/writing-cleaner-css-using-bem-methodology",
+      "homeImage": "https://www.bhg.com/thmb/PG2uGklrq2sB4rbFyWjrvurJfe0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/tudor-style-home-exterior-lush-landscaping-628aa053-0b135bb1d98a4d01974289c7d2c70217.jpg",
       "title": "2578 Flosom Street, San Francisco, CA, 94110",
       "description": "Mar 12, 2022 · 4m read time",
       "roomType": "private room",
-      "price": "1200",
-      "size": [3, 2, 4]
+      "price": "600",
+      "size": [2, 1, 3]
     },
     {
       "id": 11,
-      "homeImage": "https://israelmitolu.hashnode.dev/writing-cleaner-css-using-bem-methodology",
+      "homeImage": "https://i.pinimg.com/originals/eb/30/bc/eb30bca6bafebb571fefd0992d0b126e.jpg",
       "title": "2578 Flosom Street, San Francisco, CA, 94110",
       "description": "Mar 12, 2022 · 4m read time",
       "roomType": "private room",
-      "price": "1200",
-      "size": [3, 2, 4]
+      "price": "1150",
+      "size": [3, 3, 3]
     },
     {
       "id": 12,
-      "homeImage": "https://israelmitolu.hashnode.dev/writing-cleaner-css-using-bem-methodology",
+      "homeImage": "https://assets.architecturaldigest.in/photos/60083ece08ae763b9ae8542a/master/w_1600%2Cc_limit/kochi-homes-interior-design-kerala-photos-2.jpg",
       "title": "2578 Flosom Street, San Francisco, CA, 94110",
       "description": "Mar 12, 2022 · 4m read time",
       "roomType": "private room",
@@ -110,25 +110,25 @@
     },
     {
       "id": 13,
-      "homeImage": "https://israelmitolu.hashnode.dev/writing-cleaner-css-using-bem-methodology",
+      "homeImage": "https://assets.architecturaldigest.in/photos/61812fe36121c883df49a68a/master/w_3299,h_2200,c_limit/Kerala%20home%20Aavishkar%20Architects%2003.jpg",
       "title": "2578 Flosom Street, San Francisco, CA, 94110",
       "description": "Mar 12, 2022 · 4m read time",
       "roomType": "private room",
-      "price": "1200",
-      "size": [4, 3, 4]
+      "price": "1050",
+      "size": [2, 3, 3]
     },
     {
       "id": 14,
-      "homeImage": "https://israelmitolu.hashnode.dev/writing-cleaner-css-using-bem-methodology",
+      "homeImage": "https://assets.architecturaldigest.in/photos/61a077cdae6ab994f6834275/16:9/w_2560%2Cc_limit/feature.png",
       "title": "2578 Flosom Street, San Francisco, CA, 94110",
       "description": "Mar 12, 2022 · 4m read time",
       "roomType": "private room",
-      "price": "1200",
-      "size": [3, 2, 4]
+      "price": "800",
+      "size": [3, 2, 2]
     },
     {
       "id": 15,
-      "homeImage": "https://israelmitolu.hashnode.dev/writing-cleaner-css-using-bem-methodology",
+      "homeImage": "https://assets.architecturaldigest.in/photos/6008402b669ad19b3b104a51/master/w_1600%2Cc_limit/kochi-home-interior-design-brick-photos-2.jpg",
       "title": "2578 Flosom Street, San Francisco, CA, 94110",
       "description": "Mar 12, 2022 · 4m read time",
       "roomType": "private room",
@@ -141,12 +141,12 @@
       "title": "2578 Flosom Street, San Francisco, CA, 94110",
       "description": "Mar 12, 2022 · 4m read time",
       "roomType": "private room",
-      "price": "1200",
+      "price": "900",
       "size": [2, 1, 2]
     },
     {
       "id": 17,
-      "homeImage": "https://israelmitolu.hashnode.dev/writing-cleaner-css-using-bem-methodology",
+      "homeImage": "https://assets.architecturaldigest.in/photos/60083ed094ca758bb0ad13c0/master/w_1600%2Cc_limit/kochi-homes-interior-design-kerala-photos-2-2.jpg",
       "title": "2578 Flosom Street, San Francisco, CA, 94110",
       "description": "Mar 12, 2022 · 4m read time",
       "roomType": "private room",
@@ -155,16 +155,16 @@
     },
     {
       "id": 18,
-      "homeImage": "https://israelmitolu.hashnode.dev/writing-cleaner-css-using-bem-methodology",
+      "homeImage": "https://amazingarchitecture.com/storage/files/1/architecture-firms/planet-design-associates/urban-casa/urban_casa_planet_design_associates_ludhiana_punjab-51.jpg",
       "title": "2578 Flosom Street, San Francisco, CA, 94110",
       "description": "Mar 12, 2022 · 4m read time",
       "roomType": "private room",
-      "price": "1200",
-      "size": [4, 3, 2]
+      "price": "1500",
+      "size": [4, 3, 3]
     },
     {
       "id": 19,
-      "homeImage": "https://israelmitolu.hashnode.dev/writing-cleaner-css-using-bem-methodology",
+      "homeImage": "https://www.e-architect.com/wp-content/uploads/2021/04/cantilever-house-ghaziabad-india-a070421-4.jpg",
       "title": "2578 Flosom Street, San Francisco, CA, 94110",
       "description": "Mar 12, 2022 · 4m read time",
       "roomType": "private room",
@@ -173,7 +173,7 @@
     },
     {
       "id": 20,
-      "homeImage": "https://israelmitolu.hashnode.dev/writing-cleaner-css-using-bem-methodology",
+      "homeImage": "https://www.co-opbank.co.ke/wp-content/uploads/2021/11/good-home-resized.png",
       "title": "2578 Flosom Street, San Francisco, CA, 94110",
       "description": "Mar 12, 2022 · 4m read time",
       "roomType": "private room",
@@ -182,7 +182,7 @@
     },
     {
       "id": 21,
-      "homeImage": "https://israelmitolu.hashnode.dev/writing-cleaner-css-using-bem-methodology",
+      "homeImage": "https://assets.architecturaldigest.in/photos/600837e054beb9e516da841c/master/w_2500,h_1864,c_limit/Kochi-apartment-1LeapingFrog-Studio-211.jpg",
       "title": "2578 Flosom Street, San Francisco, CA, 94110",
       "description": "Mar 12, 2022 · 4m read time",
       "roomType": "private room",
@@ -191,7 +191,7 @@
     },
     {
       "id": 22,
-      "homeImage": "https://israelmitolu.hashnode.dev/writing-cleaner-css-using-bem-methodology",
+      "homeImage": "https://assets.architecturaldigest.in/photos/601914122d0613a995e042e8/master/w_1600%2Cc_limit/Kochi-apartment-1LeapingFrog-Studio-25.jpg",
       "title": "2578 Flosom Street, San Francisco, CA, 94110",
       "description": "Mar 12, 2022 · 4m read time",
       "roomType": "private room",
@@ -200,7 +200,7 @@
     },
     {
       "id": 23,
-      "homeImage": "https://israelmitolu.hashnode.dev/writing-cleaner-css-using-bem-methodology",
+      "homeImage": "https://assets.architecturaldigest.in/photos/60083ed094ca758bb0ad13c0/master/w_1600%2Cc_limit/kochi-homes-interior-design-kerala-photos-2-2.jpg",
       "title": "2578 Flosom Street, San Francisco, CA, 94110",
       "description": "Mar 12, 2022 · 4m read time",
       "roomType": "private room",
@@ -209,7 +209,7 @@
     },
     {
       "id": 24,
-      "homeImage": "https://israelmitolu.hashnode.dev/writing-cleaner-css-using-bem-methodology",
+      "homeImage": "https://assets.architecturaldigest.in/photos/60083ef508ae763b9ae8544b/master/w_1600%2Cc_limit/Bangalore-interior-design-images-3.jpg",
       "title": "2578 Flosom Street, San Francisco, CA, 94110",
       "description": "Mar 12, 2022 · 4m read time",
       "roomType": "private room",

@@ -3,7 +3,7 @@ import HeroBg from "../assets/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash (1
 import Navbar from "../components/Navbar";
 import HeroForm from "../components/HeroForm";
 import Map from "../assets/map.png";
-import Intro from "../components/Intro";
+import Intro from "../components/Intro/Intro";
 import Properties from "../components/Properties";
 import ReactPaginate from "react-paginate";
 import {AiOutlineArrowLeft, AiOutlineArrowRight} from 'react-icons/ai'
@@ -41,7 +41,7 @@ const HomePage = () => {
 
   
   const handlePageClick = (event) => {
-    const newOffset = (event.selected * 1) * postsPerPage;
+    const newOffset = event.selected * postsPerPage;
     setIndexOfFirstPost(newOffset);
   };
   return (
