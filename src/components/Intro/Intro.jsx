@@ -11,7 +11,7 @@ const Intro = () => {
       <h1 className=' intro_text relative text-[26px] font-extrabold mb-8'>Minimum Living Cost Takes Care of Everything</h1>
       <div className="intro_cont flex mb-10">
         <div className="left flex-1">
-          <img src={IntroImg} alt="introImage" className='w-[450px]'/>
+          <img src={IntroImg} alt="introImage" className='w-[250px]'/>
         </div>
         <div className="right flex-1 mt-28 -ml-48">
           <div className="intro_data grid grid-cols-3 gap-y-10">
@@ -52,7 +52,6 @@ const Intro = () => {
               <h2 className="font-inter font-bold text-[20px] leading-[35px] capitalize w-[95%]">pay for what you use!</h2>
             </div>
           </div>
-
         </div>
       </div>
     </div>

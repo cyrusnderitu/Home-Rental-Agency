@@ -4,7 +4,7 @@ import { FaSearch }from 'react-icons/fa'
 const HeroForm = () => {
   return (
     <>
-      <form className="p-4 bg-white w-fit rounded-lg ml-5">
+      <form className="p-4 bg-white rounded-lg ml-5">
         <div className="form_cont flex">
           <select className="border-[2px] p-2 rounded-l-lg border-gray-300 font-semibold outline-none">
             <option value="All Type">All Type</option>

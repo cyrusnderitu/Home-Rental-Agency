@@ -26,6 +26,14 @@ body{
 input, select{
   outline: none;
 }
+.activeTab::after{
+  content: "";
+  bottom: 0;
+  width: fit-content;
+  height: 3px;
+  background-color: white;
+  
+}
 .hero{
   background-image: url('../src/assets/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash\ \(1\).png');
 }

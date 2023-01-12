@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import HeroBg from "../assets/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash (1).png";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/Navbar/Navbar";
 import HeroForm from "../components/HeroForm";
 import Map from "../assets/map.png";
 import Intro from "../components/Intro/Intro";
@@ -50,7 +50,7 @@ const HomePage = () => {
         <div className="shade absolute bg-black w-full h-full">
           <div className="hero_cont px-24">
             <Navbar />
-            <div className="hero_data flex items-center mt-18 max-xl:mt-24 gap-x-16">
+            <div className="hero_data flex items-center max-xl:mt-24 gap-x-16">
               <div className="hero_desc">
                 <h1 className="text-[52px] leading-[70px] font-bold text-white w-[584px]">
                   The Most Affordable Place To Stay In The San Franciso Bay Area
