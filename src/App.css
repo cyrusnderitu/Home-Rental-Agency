@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -96,15 +97,3 @@ input, select{
   background-color: #f8fafc;
 }
 
-.upload-button {
-  cursor: pointer;
-  padding: 0.25rem;
-  font-size: 1rem;
-  border: none;
-  font-family: 'Oswald', sans-serif;
-  background-color: transparent;
-}
-
-.upload-button:hover {
-  text-decoration-line: underline;
-}

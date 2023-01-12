@@ -49,7 +49,7 @@ const Form = () => {
           </form>
           <div className='my-10'>
             <label htmlFor="txt" className='font-bold'>Description <span className='text-[#F4551E]'>*</span></label> <br />
-            <textarea id="txt" cols="30" rows="10" className='bg-gray-100 rounded-lg w-full indent-4 outline-none py-4' placeholder='Enter Description'></textarea>
+            <textarea id="txt" className='bg-gray-100 rounded-lg w-full indent-4 outline-none py-4 h-48' placeholder='Enter Description'></textarea>
           </div>
           <DropFile />
           <div className='flex justify-center'>

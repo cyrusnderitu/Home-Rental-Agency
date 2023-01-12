@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import HeroForm from "../components/HeroForm";
 import Map from "../assets/map.png";
 import Intro from "../components/Intro/Intro";
-import Properties from "../components/Properties";
+import Properties from "../components/Properties/Properties";
 import ReactPaginate from "react-paginate";
 import {AiOutlineArrowLeft, AiOutlineArrowRight} from 'react-icons/ai'
 import Options from "../components/Options";
@@ -73,11 +73,11 @@ const HomePage = () => {
         <div className="bg-gray-100 py-20 mb-18">
           <Properties data={currentPosts} />
           <ReactPaginate
-            activeClassName={"bg-orange-400 text-gray-200"}
+            activeClassName={"bg-orange-400 text-gray-100"}
             breakClassName={""}
             breakLabel={"..."}
             containerClassName={`pagination mx-auto border-2 border-gray-300 rounded-lg`}
-            disabledClassName={"bg-gray-300 text-gray-500"}
+            disabledClassName={"bg-gray-300 text-gray-400"}
             // marginPagesDisplayed={1}
             nextLabel="Next"
             nextClassName={"px-4 border-l-1 border-gray-300 h-full flex items-center text-orange-400"}

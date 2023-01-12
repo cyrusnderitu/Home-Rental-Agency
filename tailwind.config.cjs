@@ -9,6 +9,7 @@ module.exports = {
       fontFamily:{
         inter: ['Inter', 'sans-serif'],
         dms: ['DM Sans', 'sans-serif'],
+        pops: ['Poppins', 'sans-serif'],
       },
     },
   },
