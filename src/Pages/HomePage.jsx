@@ -22,47 +22,57 @@ const HomePage = () => {
   const indexOfLastPost = indexOfFirstPost + postsPerPage;
   const [currentPosts, setCurrentPost] = useState(null);
 
+  /** Asychromous function for fetching data from db.json file 
+  and stores it in state and then transfers it to localStorage **/
   async function fetchData() {
     const response = await fetch("http://localhost:8000/data");
     const data = await response.json();
     setData(data);
     setHasFetched(true);
-    localStorage.setItem('hotels', JSON.stringify(data));
+    localStorage.setItem('homes', JSON.stringify(data));
     setCurrentPost(data?.slice(indexOfFirstPost, indexOfLastPost));
     setPageCount(Math.ceil(data.length / postsPerPage));
   }
 
+  // Check of localStorage has homes otherwise fetch
   if (!hasFetched){
     fetchData();
   }
+  
   useEffect(()=>{
     setCurrentPost(data?.slice(indexOfFirstPost, indexOfLastPost));
   }, [indexOfFirstPost])
 
-  
+  // React pagination for the event onPageChange
   const handlePageClick = (event) => {
     const newOffset = event.selected * postsPerPage;
     setIndexOfFirstPost(newOffset);
   };
   return (
     <div>
-      <div className="hero h-screen relative">
+      <div className="hero h-screen">
         <div className="shade absolute bg-black w-full h-full">
-          <div className="hero_cont px-24">
-            <Navbar />
-            <div className="hero_data flex items-center max-xl:mt-24 gap-x-16">
-              <div className="hero_desc">
-                <h1 className="text-[52px] leading-[70px] font-bold text-white w-[584px]">
-                  The Most Affordable Place To Stay In The San Franciso Bay Area
-                </h1>
-              </div>
-              <div className="hero_map">
-                <img
-                  src={Map}
-                  alt="Map"
-                  className="w-[400px] h-[400px] rounded-lg mb-2"
-                />
-                <HeroForm />
+          <Navbar />
+          <div className="hero_cont px-24 h-[80%] flex justify-center items-center">
+            <div className="">
+              <div className="hero_data flex justify-center items-center h-full">
+                <div className="flex md:flex-col lg:flex-row sm:flex-col-reverse md:mt-20 lg:items-center justify-center gap-x-16">
+                  <div className="hero_desc flex-1">
+                    <h1 className="md:text-[35px] lg:text-[52px] lg:text-left md:text-center leading-[70px] font-bold text-white drop-shadow-xl shadow-black w-[584px]">
+                      The Most Affordable Place To Stay In The San Franciso Bay Area
+                    </h1>
+                  </div>
+                  <div className="hero_map flex-1">
+                    <div className="w-full flex flex-col items-center">
+                      <img
+                        src={Map}
+                        alt="Map"
+                        className="w-[400px] h-[400px] rounded-lg mb-2"
+                      />
+                      <HeroForm />
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -73,24 +83,23 @@ const HomePage = () => {
         <div className="bg-gray-100 py-20 mb-18">
           <Properties data={currentPosts} />
           <ReactPaginate
-            activeClassName={"bg-orange-400 text-gray-100"}
+            activeClassName={"bg-orange-400 text-gray-200 border border-orange-400"}
             breakClassName={""}
             breakLabel={"..."}
             containerClassName={`pagination mx-auto border-2 border-gray-300 rounded-lg`}
-            disabledClassName={"bg-gray-300 text-gray-400"}
+            disabledClassName={"bg-gray-300 text-gray-500"}
             // marginPagesDisplayed={1}
             nextLabel="Next"
-            nextClassName={"px-4 border-l-1 border-gray-300 h-full flex items-center text-orange-400"}
+            nextClassName={"px-4 border-l-1 border-gray-300 h-full flex items-center text-orange-400 border-l-2 border-gray-300"}
             onPageChange={handlePageClick}
             pageCount={pageCount}
-            pageClassName={"px-4 h-full flex items-center text-orange-400 "}
+            pageClassName={"px-3 py-4 h-full flex items-center text-orange-400 border-l-2 border-gray-300"}
             pageRangeDisplayed={3}
             previousLabel="First"
-            previousClassName={"px-4 border-r-1 border-gray-400  h-full flex items-center text-orange-400"}
+            previousClassName={"px-4 border-r-1 border-gray-400 h-full flex items-center text-orange-400"}
           />
         </div>
         <Options />
-
         <h4 className="capitalise font-bold text-xl my-10 px-24 text-center">Your property with us and be confident that your room will be filled out!</h4>
         <Form />
         <Testimonials />

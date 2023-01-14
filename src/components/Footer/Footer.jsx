@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from '../../assets/logo 1.png'
 import { MdLocationPin } from "react-icons/md";
 import { FaPhoneAlt, FaLinkedinIn } from "react-icons/fa";
 import { BsPinterest } from "react-icons/bs";
@@ -9,36 +10,36 @@ const Footer = () => {
     <div className="px-24">
       <div className="footer_cont h-full border-t-[3px] border-[#F4551E] py-20 flex">
         <div className="left  h-full flex-1">
-          <h1>This is the Left section of footer</h1>
+          <img src={Logo} alt="" className="w-2/5 bg-black"/>
         </div>
         <div className="right  h-full flex-1">
           <div className="right_cont">
             <div className="flex flex-col gap-y-4 mb-8 w-fit">
-              <p className="flex gap-y-2 items-center">
-                <MdLocationPin className="text-[#F4551E] font-2xl" />
+              <p className="flex gap-2 items-center text-[15px]">
+                <MdLocationPin className="text-[#F4551E] text-xl" />
                 345 Faulconer Drive, Suite 4 . Charlottesville, CA 12345
               </p>
               <div className="flex justify-between items-center">
-                <p className="flex gap-y-2 items-center">
-                  <FaPhoneAlt className="text-[#F4551E] font-2xl" />
+                <p className="flex gap-2 items-center text-[15px]">
+                  <FaPhoneAlt className="text-[#F4551E] text-xl" />
                   (123) 456-7890
                 </p>
-                <p className="flex gap-y-2 items-center">
-                  <AiFillPrinter className="text-[#F4551E] font-2xl" />
+                <p className="flex gap-2 items-center text-[15px]">
+                  <AiFillPrinter className="text-[#F4551E] text-xl" />
                   (123) 456-7890
                 </p>
               </div>
             </div>
             <div className="socials flex gap-x-4">
               <span>Social Media</span>
-              <a href=""><AiFillFacebook className="text-[#F4551E] font-2xl"/></a>
-              <a href=""><AiOutlineTwitter className="text-[#F4551E] font-2xl"/></a>
-              <a href=""><FaLinkedinIn className="text-[#F4551E] font-2xl"/></a>
-              <a href=""><AiFillYoutube className="text-[#F4551E] font-2xl" /></a>
-              <a href=""><AiOutlineInstagram className="text-[#F4551E] font-2xl" /></a>
-              <a href=""><AiOutlineGooglePlus className="text-[#F4551E] font-2xl" /></a>
-              <a href=""><BsPinterest className="text-[#F4551E] font-2xl" /></a>
-              <a href=""><AiOutlineWifi  className="text-[#F4551E] rotate-45"/></a>
+              <a href=""><AiFillFacebook className="text-[#F4551E] text-2xl"/></a>
+              <a href=""><AiOutlineTwitter className="text-[#F4551E] text-2xl"/></a>
+              <a href=""><FaLinkedinIn className="text-[#F4551E] text-2xl"/></a>
+              <a href=""><AiFillYoutube className="text-[#F4551E] text-2xl" /></a>
+              <a href=""><AiOutlineInstagram className="text-[#F4551E] text-2xl" /></a>
+              <a href=""><AiOutlineGooglePlus className="text-[#F4551E] text-2xl" /></a>
+              <a href=""><BsPinterest className="text-[#F4551E] text-2xl" /></a>
+              <a href=""><AiOutlineWifi  className="text-[#F4551E] rotate-45 text-2xl"/></a>
             </div>
           </div>
         </div>

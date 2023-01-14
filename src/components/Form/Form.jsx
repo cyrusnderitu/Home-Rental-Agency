@@ -18,27 +18,38 @@ const Form = () => {
             </div>  
             <div className="font-inter">
               <label htmlFor="name" className='font-bold'>Unit Number<span className='text-[#F4551E]'>*</span></label><br />
-              <input type="text" placeholder='Enter Unit' className='indent-4 py-2 bg-gray-100 text-gray-500 w-full border-1 rounded-md border-gray-300'/>
+              <input type="number" placeholder='Enter Unit' className='indent-4 py-2 bg-gray-100 text-gray-500 w-full border-1 rounded-md border-gray-300'/>
             </div>  
             <div className="font-inter">
               <label htmlFor="name" className='font-bold'>City<span className='text-[#F4551E]'>*</span></label><br />
               <select className='indent-4 py-2 bg-gray-100 text-gray-500 w-full border-1 rounded-md border-gray-300'>
-                <option value="Select City">Select City</option>
+                <option value="Select City" disabled>Select City</option>
+                <option value="new york">New York</option>
+                <option value="tokyo">Tokyo</option>
+                <option value="london">London</option>
               </select>
             </div>  
             <div className="font-inter">
               <label htmlFor="name" className='font-bold'>State<span className='text-[#F4551E]'>*</span></label><br />
               <select className='indent-4 py-2 bg-gray-100 text-gray-500 w-full border-1 rounded-md border-gray-300'>
-                <option value="Select State">Select State</option>
+                <option value="Select State" disabled>Select State</option>
+                <option value="carolina">North Carolina</option>
+                <option value="massachusetts">Massachusetts</option>
+                <option value="georgia">Georgia</option>
               </select>
             </div>  
             <div className="font-inter">
               <label htmlFor="name" className='font-bold'>Room Type<span className='text-[#F4551E]'>*</span></label><br />
-              <input type="text" placeholder='Enter Name' className='indent-4 py-2 bg-gray-100 text-gray-500 w-full border-1 rounded-md border-gray-300'/>
+              <select className='indent-4 py-2 bg-gray-100 text-gray-500 w-full border-1 rounded-md border-gray-300'>
+                <option value="Select State" disabled>Master En-suite</option>
+                <option value="carolina">Single</option>
+                <option value="massachusetts">Double</option>
+                <option value="georgia">Triple</option>
+              </select>
             </div>  
             <div className="font-inter">
               <label htmlFor="name" className='font-bold'>Price<span className='text-[#F4551E]'>*</span></label><br />
-              <input type="text" placeholder='Enter Price' className='indent-4 py-2 bg-gray-100 text-gray-500 w-full border-1 rounded-md border-gray-300'/>
+              <input type="number" placeholder='In dollars ($)' className='indent-4 py-2 bg-gray-100 text-gray-500 w-full border-1 rounded-md border-gray-300'/>
             </div>  
             <div className="font-inter">
               <label htmlFor="name" className='font-bold'>Room Type<span className='text-[#F4551E]'>*</span></label><br />
