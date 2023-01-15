@@ -6,10 +6,10 @@ import '../Properties/style.css'
 const Properties = ({data}) => {
 
   return (
-    <div className='mb-6 px-24'>
+    <div className='mb-6 mob:px-12 md:px-18 lg:px-24'>
         <div className='flex justify-between items-center'>
-            <h1 className='prop_title relative font-bold md:text-[18px] lg:text-[26px]'>List Of Properties</h1>
-            <button className='border-none bg-[#F4511E] text-white p-2 md:text-[14px] lg:text-[18px]'>View All Property</button>
+            <h1 className='prop_title relative font-bold sm:text-[18px] lg:text-[26px]'>List Of Properties</h1>
+            <button className='border-none bg-[#F4511E] text-white p-2 mob:text-[12px] sm:font-bold md:font-regular md:text-[14px] lg:text-[18px]'>View All Property</button>
         </div>
         <div className='flex justify-center items-center mt-10'>
           <div className='blog-container'>

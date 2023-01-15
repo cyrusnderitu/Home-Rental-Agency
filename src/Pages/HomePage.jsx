@@ -53,12 +53,12 @@ const HomePage = () => {
       <div className="hero h-screen">
         <div className="shade absolute bg-black w-full h-full">
           <Navbar />
-          <div className="hero_cont px-24 h-[80%] flex justify-center items-center">
+          <div className="hero_cont mob:px-12 md:px-18 lg:px-24 h-[80%] flex justify-center items-center">
             <div className="">
               <div className="hero_data flex justify-center items-center h-full">
-                <div className="flex md:flex-col lg:flex-row sm:flex-col-reverse md:mt-20 lg:items-center justify-center gap-x-16">
+                <div className="flex md:flex-col lg:flex-row mob:flex-col-reverse md:mt-20 lg:items-center justify-center gap-x-16">
                   <div className="hero_desc flex-1">
-                    <h1 className="md:text-[35px] sm:text-[30px] sm:text-center lg:text-[40px] xl:text-[52px] lg:text-left md:text-center leading-[70px] font-bold text-white drop-shadow-xl shadow-black w-[584px]">
+                    <h1 className="md:text-[40px] mob:text-[30px] sm:text-[35px] sm:text-center lg:text-[40px] xl:text-[52px] lg:text-left mob:text-center mob:leading-2 md:leading-[50px] lg:leading-[70px] font-bold text-white drop-shadow-xl shadow-black lg:w-[584px] mob:mt-8 sm:mt-0">
                       The Most Affordable Place To Stay In The San Franciso Bay Area
                     </h1>
                   </div>
@@ -67,7 +67,7 @@ const HomePage = () => {
                       <img
                         src={Map}
                         alt="Map"
-                        className="w-[400px] h-[400px] rounded-lg mb-2"
+                        className="w-[400px] mob:h-[350px] md:h-[400px] rounded-lg mb-2"
                       />
                       <HeroForm />
                     </div>
@@ -100,7 +100,7 @@ const HomePage = () => {
           />
         </div>
         <Options />
-        <h4 className="capitalise font-bold text-xl my-10 px-24 text-center">Your property with us and be confident that your room will be filled out!</h4>
+        <h4 className="capitalise font-bold sm:text-md lg:text-xl my-10 px-24 text-center">Your property with us and be confident that your room will be filled out!</h4>
         <Form />
         <Testimonials />
       </main>

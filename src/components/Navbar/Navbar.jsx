@@ -12,13 +12,13 @@ const Navbar = () => {
         console.log("Active tab is: ",activeTab)
     }
 return (
-    <div className='h-[80px] grid border-b-2 border-gray-300 mx-24'>
+    <div className='h-[80px] grid border-b-2 border-gray-300 mob:mx-14 md:mx-18 lg:mx-24'>
         <nav className='flex items-center justify-between'>
             <div className="logo">
                 <img src={Logo} alt="Logo" className='h-[40px]'/>
             </div>
             <div className="nav_list text-white ">
-                <div className='flex gap-x-8 sm:flex-col md:flex-row'>
+                <div className='flex gap-x-8 mob:flex-col md:flex-row'>
                     <NavLink to={'/'} onClick={(e)=> e.preventDefault()}>
                         <a href="#" className={`md:relative ${activeTab === 'home' ? 'active' : ''}`} onClick={() => handleClick('home')}>Home</a>
                     </NavLink>

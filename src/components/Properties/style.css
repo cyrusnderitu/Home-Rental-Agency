@@ -7,12 +7,12 @@
 @media screen and (max-width: 968px) {
 	.blog-container {
 		display: grid;
-		grid-template-columns: repeat(2, minmax(280px, 300px));
+		grid-template-columns: repeat(2, minmax(250px, 280px));
 		grid-gap: 50px;
 		margin-top: 20px;
 	}
 }
-@media screen and (max-width: 696px) {
+@media screen and (max-width: 640px) {
 	.blog-container {
 		display: grid;
 		grid-template-columns: minmax(250px, 280px);
