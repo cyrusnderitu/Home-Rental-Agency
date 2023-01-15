@@ -100,7 +100,7 @@ const HomePage = () => {
           />
         </div>
         <Options />
-        <h4 className="capitalise font-bold sm:text-md lg:text-xl my-10 px-24 text-center">Your property with us and be confident that your room will be filled out!</h4>
+        <h4 className="capitalise font-bold sm:text-md lg:text-xl my-10 mob:px-10 md:px-24 text-center">Your property with us and be confident that your room will be filled out!</h4>
         <Form />
         <Testimonials />
       </main>

@@ -33,11 +33,11 @@ const Options = () => {
             <div className="right font-inter">
                 <div className='flex flex-col gap-y-4 mob:text-center lg:text-left'>
                     <h1 className='font-extrabold text-black mob:text-2xl md:text-3xl lg:text-4xl'>Flexibility and options  <br /> to suit your lifestyle.</h1>
-                    <p className='lg:mb-8 md:mb-2 lg:w-4/5 text-[18191F] mob:w-full mob:px-20 md:px-28 lg:px-0'>You need it ? We got it. We make finding your next home easy, comfortable, and simple. 
+                    <p className='lg:mb-8 md:mb-2 lg:w-4/5 text-[18191F] mob:w-full mob:px-8 md:px-20 lg:px-0'>You need it ? We got it. We make finding your next home easy, comfortable, and simple. 
                     From our hapinness guarantee to our selective room finder option. We provide you the flexibility
                     that you most desire</p>
                     <div className='w-full flex mob:justify-center lg:justify-start'>
-                        <button className='px-4 py-2 border-none bg-[#f4511E] text-white rounded-[10px] w-fit'> Search Rooms</button>
+                        <button className='px-4 py-2 border-none bg-[#f4511E] text-white rounded-[10px] w-fit mob:text-[14px] md:text-regular'> Search Rooms</button>
                     </div>
                 </div>
             </div>
