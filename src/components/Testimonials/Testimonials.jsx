@@ -8,7 +8,7 @@ const Testimonials = () => {
   return (
     <div className="my-20 bg-orange-100 h-[400px]">
       <div className="grid text-white grid-cols-2 h-full">
-        <div className="left ml-24 text-black">
+        <div className="left md:ml-16 lg:ml-24 text-black">
           <Swiper
             pagination={{
               dynamicBullets: true,

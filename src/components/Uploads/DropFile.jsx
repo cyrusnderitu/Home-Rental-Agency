@@ -11,14 +11,14 @@ const DropFile = () => {
   return (
     <div>
       <form id="font-pops">
-      <div className='text-left font-bold'>
+      <div className='text-left font-bold md:text-[14px] lg:text-[16px]'>
         <label htmlFor="input-file-upload" className=""> Upload Photos <span className='text-[#F4551E]'>*</span></label>
       </div>
       <input type="file" id="input-file-upload" multiple={true} required className='bg-transparent' onClick={handleChange}/>
       <label id="label-file-upload" htmlFor="input-file-upload">
         <div className='py-10'>
-          <p className='font-bold'>Drag your images here, or <span className='text-[#F4551E] cursor-pointer'>browse</span></p>
-          <p className='text-gray-400'>Supported JPG, JPEG, PNG</p>
+          <p className='font-bold md:text-[14px] lg:text-[16px]'>Drag your images here, or <span className='text-[#F4551E] cursor-pointer'>browse</span></p>
+          <p className='text-gray-400 md:text-[14px] lg:text-[16px] text-center'>Supported JPG, JPEG, PNG</p>
         </div> 
       </label>
     </form>

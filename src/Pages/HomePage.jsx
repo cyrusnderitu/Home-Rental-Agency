@@ -58,12 +58,12 @@ const HomePage = () => {
               <div className="hero_data flex justify-center items-center h-full">
                 <div className="flex md:flex-col lg:flex-row sm:flex-col-reverse md:mt-20 lg:items-center justify-center gap-x-16">
                   <div className="hero_desc flex-1">
-                    <h1 className="md:text-[35px] lg:text-[52px] lg:text-left md:text-center leading-[70px] font-bold text-white drop-shadow-xl shadow-black w-[584px]">
+                    <h1 className="md:text-[35px] sm:text-[30px] sm:text-center lg:text-[40px] xl:text-[52px] lg:text-left md:text-center leading-[70px] font-bold text-white drop-shadow-xl shadow-black w-[584px]">
                       The Most Affordable Place To Stay In The San Franciso Bay Area
                     </h1>
                   </div>
                   <div className="hero_map flex-1">
-                    <div className="w-full flex flex-col items-center">
+                    <div className="w-full flex flex-col md:flex-col-reverse lg:flex-col items-center">
                       <img
                         src={Map}
                         alt="Map"

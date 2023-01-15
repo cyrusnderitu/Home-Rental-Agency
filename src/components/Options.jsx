@@ -7,8 +7,8 @@ import Roommate from '../assets/Roommate.png'
 const Options = () => {
   return (
     <div className='options md:p-16 lg:p-24 flex justify-center items-center gap-x-8'>
-        <div className='options_cont flex md:flex-col-reverse lg:flex-row items-center gap-x-8'>
-            <div className="left flex flex-col flex-1 justify-center gap-y-[10px]">
+        <div className='options_cont flex md:flex-col lg:flex-row items-center gap-x-8 gap-y-12'>
+            <div className="left flex flex-col justify-center gap-y-[10px]">
                 <div className="top flex flex-row gap-x-[10px] items-end">
                     <div className='md:w-[200px] lg:w-[250px] lg:h-[280px] md:h-[250px] relative rounded-lg bg-slate-500'>
                         <img src={Flexible} alt="" className='absolute w-full h-full object-cover rounded-lg object-center'/>
@@ -30,12 +30,16 @@ const Options = () => {
                     </div>
                 </div>
             </div>
-            <div className="right font-inter flex-1 flex flex-col gap-y-4 justify-center ml-20">
-                <h1 className='font-extrabold text-black text-4xl'>Flexibility and options  <br /> to suit your lifestyle.</h1>
-                <p className='mb-8 w-4/5 text-[18191F]'>You need it ? We got it. We make finding your next home easy, comfortable, and simple. 
-                From our hapinness guarantee to our selective room finder option. We provide you the flexibility
-                that you most desire</p>
-                <button className='px-4 py-2 border-none bg-[#f4511E] text-white rounded-[10px] w-fit'> Search Rooms</button>
+            <div className="right font-inter">
+                <div className='flex flex-col gap-y-4 md:text-center lg:text-left'>
+                    <h1 className='font-extrabold text-black text-4xl'>Flexibility and options  <br /> to suit your lifestyle.</h1>
+                    <p className='lg:mb-8 md:mb-2 lg:w-4/5 text-[18191F] md:w-full md:px-32 lg:px-0'>You need it ? We got it. We make finding your next home easy, comfortable, and simple. 
+                    From our hapinness guarantee to our selective room finder option. We provide you the flexibility
+                    that you most desire</p>
+                    <div className='w-full flex md:justify-center'>
+                        <button className='px-4 py-2 border-none bg-[#f4511E] text-white rounded-[10px] w-fit'> Search Rooms</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

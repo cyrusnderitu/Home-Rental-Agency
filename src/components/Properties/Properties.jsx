@@ -8,10 +8,10 @@ const Properties = ({data}) => {
   return (
     <div className='mb-6 px-24'>
         <div className='flex justify-between items-center'>
-            <h1 className='prop_title relative font-bold text-[26px] mb-10'>List Of Properties</h1>
-            <button className='border-none bg-[#F4511E] text-white p-2'>View All Property</button>
+            <h1 className='prop_title relative font-bold md:text-[18px] lg:text-[26px]'>List Of Properties</h1>
+            <button className='border-none bg-[#F4511E] text-white p-2 md:text-[14px] lg:text-[18px]'>View All Property</button>
         </div>
-        <div className='flex justify-center items-center'>
+        <div className='flex justify-center items-center mt-10'>
           <div className='blog-container'>
               {data ?(data.map((post)=>{return <PropCard key={post.id} data={post} /> })): "No Property Found"}
           </div>

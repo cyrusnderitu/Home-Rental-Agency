@@ -7,7 +7,7 @@ import { AiFillPrinter, AiFillFacebook, AiOutlineTwitter, AiFillYoutube, AiOutli
 
 const Footer = () => {
   return (
-    <div className="px-24">
+    <div className="px-12 md:px-24">
       <div className="footer_cont h-full border-t-[3px] border-[#F4551E] py-20 flex">
         <div className="left  h-full flex-1">
           <img src={Logo} alt="" className="w-2/5 bg-black"/>
@@ -45,15 +45,15 @@ const Footer = () => {
         </div>
       </div>
       <div className="border-t-2 mx-8">
-        <div className="border-gray-100 flex justify-between items-center mt-8">
-          <ul className="flex gap-x-8 text-[12px] font-semibold">
+        <div className="border-gray-100 flex md:flex-col lg:flex-row md:gap-y-4 justify-between items-center mt-8">
+          <ul className="flex gap-x-4 text-[12px] font-semibold">
             <li className="uppercase list-none">About us</li>
             <li className="uppercase list-none">Contact us</li>
             <li className="uppercase list-none">Help</li>
             <li className="uppercase list-none">Privacy policy</li>
             <li className="uppercase list-none">Disclaimer</li>
           </ul>
-          <span className="text-center">Copyright &copy; 2020 Minimumlivingcost. All rights reserved</span>
+          <span className="text-center font-dms">Copyright &copy; 2020 Minimumlivingcost. All rights reserved</span>
         </div>
       </div>
     </div>
